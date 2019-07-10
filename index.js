@@ -12,6 +12,8 @@ client.get("color", function(err, value) {
   console.log("Got: " + value);
   client.quit();
 });
+
+console.log(1);
 client.hmset(
   "kitty",
   {
